@@ -2,7 +2,7 @@ Name: mythes-cs
 Summary: Czech thesaurus
 %define upstreamid 20070926
 Version: 0.%{upstreamid}
-Release: 10%{?dist}
+Release: 9%{?dist}
 Source: http://ftp.services.openoffice.org/pub/OpenOffice.org/contrib/dictionaries/thes_cs_CZ_v2.zip
 Group: Applications/Text
 URL: http://wiki.services.openoffice.org/wiki/Dictionaries
@@ -34,9 +34,6 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/mythes/*
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.20070926-10
-- Mass rebuild 2013-12-27
-
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.20070926-9
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
